@@ -1,6 +1,6 @@
 [class *= col-] {
     text-align: center;
-    line-height: 100%;
+    position: relative;
 }
 .nest {
     background-color: salmon;
@@ -10,6 +10,8 @@
     padding: 4px;
 }
 p {
-    display: inline-block;
-    vertical-align: middle;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
