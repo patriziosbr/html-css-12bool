@@ -1,0 +1,15 @@
+[class *= col-] {
+    text-align: center;
+    line-height: 100%;
+}
+.nest {
+    background-color: salmon;
+    border: 1px solid seashell;
+}
+.padd {
+    padding: 4px;
+}
+p {
+    display: inline-block;
+    vertical-align: middle;
+}
