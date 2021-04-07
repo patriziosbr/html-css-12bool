@@ -1,6 +1,6 @@
 .debug .container {
     background-color: lightpink;
-    /* min-height: 150px; */
+    min-height: 150px;
     border: 1px solid black;
 }
 
@@ -21,7 +21,7 @@
 }
 [class *= "col-"] {
     float: left;
-    min-height: 150px; /* debug */
+    min-height: 150px; 
     border: 1px solid black; /*debug*/
 }
 
