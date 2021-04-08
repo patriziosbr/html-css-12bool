@@ -1,15 +1,8 @@
-.debug .container {
-    background-color: lightpink;
-    min-height: 150px;
-    border: 1px solid black;
-}
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }    
-
 .container {
     max-width: 1170px;
     margin: 0 auto;
@@ -21,8 +14,7 @@
 }
 [class *= "col-"] {
     float: left;
-    min-height: 150px; 
-    border: 1px solid black; /*debug*/
+    min-height: 150px; /*debug*/
 }
 
 /* width columns */
@@ -30,7 +22,7 @@
     width: calc((100% / 12)*1);
 }
 .col-2 {
-    width: calc((100% / 12)*2 );
+    width: calc((100% / 12)*2);
 }
 .col-3 {
     width: calc((100% / 12)*3);
